@@ -1,0 +1,129 @@
+body
+{
+ background-color: /*#CD6155*/ #E6B0AA;
+}
+main
+{
+  height: 70vh;
+  /*opacity: 0.1;*/
+  margin: 0;
+}
+
+a
+{
+    text-decoration : none;
+    display : inline-block;
+} a:active #deux
+{
+    display : none;
+}
+
+/*//////////////////////////////////////////
+          nav tag begin
+//////////////////////////////////////////*/
+
+.div-nav-contener
+{
+  height: 100px;
+  background-color: #FF5733;
+  margin: 5px;
+  border-radius: 25px;
+  text-align: center;
+}
+.div-child
+{
+  height: 80px;
+  width: 100px;
+  background-color: #900C3F;
+  display: inline-block;
+  transition: background-color 0.4s ease-out;
+  transition: width 0.2s ease-in;
+  margin-top: 10px;
+}
+.div-child:hover
+{
+  background-color: #FFC300;
+  width: 95px;
+}
+
+.div-child-text
+{
+  font-weight: bold;
+  border: solid 2px white;
+  color: white;
+}
+
+/*//////////////////////////////////////////
+          nav tag end
+//////////////////////////////////////////*/
+
+/*//////////////////////////////////////////
+          div id "entourage-section" begin
+//////////////////////////////////////////*/
+
+
+.section-principal-contener
+{
+    height: 500px;
+    width : 700px;
+    border-radius: 20px;
+}
+
+.section-contener-child
+{
+    /*border: solid black 2px;*/
+    height : 500px;
+    width : 700px;
+    border-radius: 20px;
+    text-align: center;
+    display : none;
+}
+
+.section-contener-child h2
+{
+    margin : 200px 0;
+    font-size : 65px;
+}
+
+/*//////////////////////////////////////////
+          div id "entourage-section" end
+//////////////////////////////////////////*/
+
+
+
+/*//////////////////////////////////////////
+          WINDOW POPUP begin
+//////////////////////////////////////////*/
+
+#window-popup
+{
+  background-color: rgb(41, 236, 126);
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  border-radius: 20px;
+  display: none;
+}
+#line-bottom
+{
+  background-color: yellowgreen;
+  height: 30px;
+}
+#bottom
+{
+  background-color:  rgb(255, 123, 0);
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+#bottom:hover
+{
+  background-color: red;
+}
+
+
+/*//////////////////////////////////////////
+          WINDOW POPUP end
+//////////////////////////////////////////*/
